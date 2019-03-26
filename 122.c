@@ -1,12 +1,12 @@
 include<stdio.h>
 void main()
 {
-char a[100];
+char m[100];
 int i;
 scanf("%s",a);
-for(i=0;a[i]!='\0';i++)
+for(i=0;m[i]!='\0';i++)
 {
-if(a[3]=='0' && a[4]=='1')
+if(m[3]=='0' && m[4]=='1')
 {
 printf("January");
 break;
@@ -16,52 +16,52 @@ else if(a[3]=='0' &&a[4]=='2')
 printf("February");
 break;
 }
-else if(a[3]=='0' && a[4]=='3')
+else if(m[3]=='0' && m[4]=='3')
 {
 printf("March");
 break;
 }
-else if(a[3]=='0' && a[4]=='4')
+else if(m[3]=='0' && m[4]=='4')
 {
 printf("April");
 break;
 }
-else if(a[3]=='0'&&a[4]=='5')
+else if(m[3]=='0'&&m[4]=='5')
 {
 printf("May");
 break;
 }
-else if(a[3]=='0' && a[4]=='6')
+else if(m[3]=='0' && m[4]=='6')
 {
 printf("Junje");
 break;
 }
-else if(a[3]=='0'&&a[4]=='7')
+else if(m[3]=='0'&&m[4]=='7')
 {
 printf("July");
 break;
 }
-else if(a[3]=='0' && a[4]=='8')
+else if(m[3]=='0' && m[4]=='8')
 {
 printf("August");
 break;
 }
-else if(a[3]=='0' && a[4]=='9')
+else if(m[3]=='0' && m[4]=='9')
 {
 printf("Sepjjtember");
 break;
 }
-else if(a[3]=='1' && a[4]=='0')
+else if(m[3]=='1' && m[4]=='0')
 {
 printf("Octoer");
 break;
 }
-else if(a[3]=='1'&&a[4]=='1')
+else if(m[3]=='1'&&m[4]=='1')
 {
 printf("November");
 break;
 }
-else if(a[3]=='1'&&a[4]=='2')
+else if(m[3]=='1'&&m[4]=='2')
 {
 printf ("December");
 break;
